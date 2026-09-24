@@ -1,7 +1,8 @@
-Add-WindowsFeature Web-Common-Http
+Add-Content -Path C:\inetpub\wwwroot\Default.htm -Value $($env:computername)
 
 
 
----
+----
 
-20.241.177.221
+
+
